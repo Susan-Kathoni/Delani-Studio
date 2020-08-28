@@ -1,0 +1,19 @@
+### PROJECT NAME
+Delani studio.
+
+### PROJECT DESCRIPTION
+
+### AUTHOR
+Written by Susan Kathoni.
+
+### TECHNOLOGIES USED
+- HTML
+- Bootstrap
+- JavaScript
+- Markdown
+
+### DEPENDENCIES
+
+### SETUP & INSTALLATION INSTRUCTIONS
+
+### CONTACT AND LICENSE INFORMATION
