@@ -1,19 +1,23 @@
+.container {
+  background-image: url("../images/assets/backgrounds/h_img.jpg");
+  text-align: center;
+}
+
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .column {
-      float: left;
-      width: 24%;
-      padding: 10px
-  }
+.column {
+  float: left;
+  width: 24%;
+  padding: 10px;
+}
 
-  .row::after {
-      content:"" ;
-      clear: both;
-      display: table;
-
-  }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
