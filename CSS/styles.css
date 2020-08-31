@@ -1,4 +1,4 @@
-.container-fluid {
+#welcomeDelani {
   background-image: url("../images/assets/backgrounds/bckgrnd1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,17 +9,17 @@
   color: white;
 }
 #logo-img {
-  padding: 110px;
+  padding: 100px;
 }
 #mouse-icon {
-  padding: 190px;
+  padding: 170px;
 }
-.services {
-  background-image: url("../images/assets/backgrounds/bckgrnd2.jpg");
+#delaniServices {
+  background-image: url(../images/assets/backgrounds/bckgrnd2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 700px;
+  height: 300px;
   text-align: center;
   padding: 100px;
   color: white;
@@ -27,9 +27,7 @@
 #aboutDelani {
   text-align: center;
 }
-#what-we-do {
-  text-align: center;
-}
+/* #what-we-do {} */
 .centered {
   position: absolute;
   top: 50%;
