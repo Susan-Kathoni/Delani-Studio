@@ -31,7 +31,12 @@
   text-align: center;
   padding-left: 10px;
 }
+h3,
 h2 {
+  font-weight: bold;
+}
+h2,
+h4 {
   text-align: center;
 }
 #image-icons {
@@ -39,4 +44,43 @@ h2 {
 }
 #delani-footer {
   text-align: center;
+}
+#design-paragraph,
+#development-paragraph,
+#product-paragraph {
+  display: none;
+  text-align: center;
+}
+#design-icon,
+#development-icon,
+#product-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.2;
+  position: absolute;
+  top: 0.0em;
+  display: none;
+  color: black;
+  font-size: 20px;
+}
+#Portfolio-img1,#Portfolio-img2,
+#Portfolio-img3,#Portfolio-img4,
+#Portfolio-img5,#Portfolio-img6,
+#Portfolio-img7,#Portfolio-img8 {
+  display: none;
+  background-color: white;  
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  color: black;
+  position: absolute;
+  top: 0.0em;
+  font-size: 25px;
+}
 }
