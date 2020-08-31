@@ -1,5 +1,5 @@
 .container-fluid {
-  background-image: url("../images/assets/backgrounds/h_img.jpg");
+  background-image: url("../images/assets/backgrounds/bckgrnd1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -15,7 +15,7 @@
   padding: 190px;
 }
 .services {
-  background-image: url("../images/assets/backgrounds/s_image.jpg");
+  background-image: url("../images/assets/backgrounds/bckgrnd2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -25,6 +25,9 @@
   color: white;
 }
 #aboutDelani {
+  text-align: center;
+}
+#what-we-do {
   text-align: center;
 }
 .centered {
