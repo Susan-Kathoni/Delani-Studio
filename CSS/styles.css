@@ -27,22 +27,13 @@
 #aboutDelani {
   text-align: center;
 }
-/* #what-we-do {} */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#whatWeDo {
+  text-align: center;
+  padding-left: 10px;
 }
-
-.column {
-  float: left;
-  width: 24%;
-  padding: 10px;
+h2 {
+  text-align: center;
 }
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+#image-icons {
+  text-align: center;
 }
