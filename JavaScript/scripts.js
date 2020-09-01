@@ -40,40 +40,40 @@ $(document).ready(function () {
   $(".img-fluid2").mouseout(function () {
     $("#Portfolio-img2").hide();
   });
-  $(".img-fluid").mouseover(function () {
+  $(".img-fluid3").mouseover(function () {
     $("#Portfolio-img3").show();
   });
-  $(".img-fluid").mouseout(function () {
+  $(".img-fluid3").mouseout(function () {
     $("#Portfolio-img3").hide();
   });
-  $(".img-fluid").mouseover(function () {
+  $(".img-fluid4").mouseover(function () {
     $("#Portfolio-img4").show();
   });
-  $(".img-fluid").mouseout(function () {
+  $(".img-fluid4").mouseout(function () {
     $(".#Portfolio-img4").hide();
   });
-  $(".img-fluid").mouseover(function () {
+  $(".img-fluid5").mouseover(function () {
     $("#Portfolio-img5").show();
   });
-  $(".img-fluid").mouseout(function () {
+  $(".img-fluid5").mouseout(function () {
     $("#Portfolio-img5").hide();
   });
-  $(".img-fluid").mouseover(function () {
+  $(".img-fluid6").mouseover(function () {
     $("#Portfolio-img6").show();
   });
-  $(".img-fluid").mouseout(function () {
+  $(".img-fluid6").mouseout(function () {
     $("#Portfolio-img6").hide();
   });
-  $(".img-fluid").mouseover(function () {
+  $(".img-fluid7").mouseover(function () {
     $("#Portfolio-img7").show();
   });
-  $(".img-fluid").mouseout(function () {
+  $(".img-fluid7").mouseout(function () {
     $("#Portfolio-img7").hide();
   });
-  $(".img-fluid").mouseover(function () {
+  $(".img-fluid8").mouseover(function () {
     $("#Portfolio-img8").show();
   });
-  $(".img-fluid").mouseout(function () {
+  $(".img-fluid8").mouseout(function () {
     $("#Portfolio-img8").hide();
   });
 });
