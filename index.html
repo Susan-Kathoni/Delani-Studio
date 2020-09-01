@@ -198,7 +198,12 @@
     <div class="row">
       <div class="col-md-6 col-md-offset-3" id="form_container">
         <h3><b>CONTACT US</b></h3>
-        <form role="form" method="post" id="reused_form" name="contacts">
+        <form
+          action="http://eepurl.com"
+          method="post"
+          id="reused_form"
+          name="feedback"
+        >
           <div class="row">
             <div class="col-sm-6 form-group">
               <label for="name"> Your Name:</label>
@@ -240,7 +245,7 @@
               <button
                 type="submit"
                 class="btn btn-lg btn-default pull-right"
-                onclick="contacts()"
+                onclick="feedback()"
               >
                 Send →
               </button>
