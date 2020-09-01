@@ -58,19 +58,70 @@ h4 {
   margin-left: auto;
   margin-right: auto;
 }
-#Portfolio-img1,#Portfolio-img2,
-#Portfolio-img3,#Portfolio-img4,
-#Portfolio-img5,#Portfolio-img6,
-#Portfolio-img7,#Portfolio-img8 {
-    display: none;
-    background-color: white;
-    opacity: 0.2;
-    width: 100%;
-    height: 100%
-    position: absolute;
-    top: 0.0em;
-    color: black;
-    font-size: 20px;
+#Portfolio-img1,
+#Portfolio-img2,
+#Portfolio-img3,
+#Portfolio-img4,
+#Portfolio-img5,
+#Portfolio-img6,
+#Portfolio-img7,
+#Portfolio-img8 {
+  display: none;
+  background-color: white;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0em;
+  color: black;
+  font-size: 20px;
+}
+/* user's contact form */
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: greenyellow;
+}
+
+/* Style the container/contact section */
+.container {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+@media screen and (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+#form_container {
+  text-align: center;
+  margin-left: 25%;
 }

@@ -27,54 +27,55 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function(){
-$(".img-fluid").mouseover(function () {
-  $("#Portfolio-img1").show();
-});
-$("#img-fluid").mouseout(function () {
-  $("#Portfolio-img1").hide();
-});
-$(".img-fluid").mouseover(function () {
-  $(".#Portfolio-img2").show();
-});
-$(".img-fluid").mouseout(function () {
-  $("#Portfolio-img2").hide();
-});
-$(".img-fluid").mouseover(function () {
-  $("#Portfolio-img3").show();
-});
-$(".img-fluid").mouseout(function () {
-  $("#Portfolio-img3").hide();
-});
-$(".img-fluid").mouseover(function () {
-  $("#Portfolio-img4").show();
-});
-$(".img-fluid").mouseout(function () {
-  $(".#Portfolio-img4").hide();
-});
-$(".img-fluid").mouseover(function () {
-  $("#Portfolio-img5").show();
-});
-$(".img-fluid").mouseout(function () {
-  $("#Portfolio-img5").hide();
-});
-$(".img-fluid").mouseover(function () {
-  $("#Portfolio-img6").show();
-});
-$(".img-fluid").mouseout(function () {
-  $("#Portfolio-img6").hide();
-});
-$(".img-fluid").mouseover(function () {
-  $("#Portfolio-img7").show();
-});
-$(".img-fluid").mouseout(function () {
-  $("#Portfolio-img7").hide();
-});
-$(".img-fluid").mouseover(function () {
-  $("#Portfolio-img8").show();
-});
-$(".img-fluid").mouseout(function () {
-  $("#Portfolio-img8").hide();
+$(document).ready(function () {
+  $(".img-fluid").mouseover(function () {
+    $("#Portfolio-img1").show();
+  });
+  $(".img-fluid").mouseout(function () {
+    $("#Portfolio-img1").hide();
+  });
+  $(".img-fluid2").mouseover(function () {
+    $(".#Portfolio-img2").show();
+  });
+  $(".img-fluid2").mouseout(function () {
+    $("#Portfolio-img2").hide();
+  });
+  $(".img-fluid").mouseover(function () {
+    $("#Portfolio-img3").show();
+  });
+  $(".img-fluid").mouseout(function () {
+    $("#Portfolio-img3").hide();
+  });
+  $(".img-fluid").mouseover(function () {
+    $("#Portfolio-img4").show();
+  });
+  $(".img-fluid").mouseout(function () {
+    $(".#Portfolio-img4").hide();
+  });
+  $(".img-fluid").mouseover(function () {
+    $("#Portfolio-img5").show();
+  });
+  $(".img-fluid").mouseout(function () {
+    $("#Portfolio-img5").hide();
+  });
+  $(".img-fluid").mouseover(function () {
+    $("#Portfolio-img6").show();
+  });
+  $(".img-fluid").mouseout(function () {
+    $("#Portfolio-img6").hide();
+  });
+  $(".img-fluid").mouseover(function () {
+    $("#Portfolio-img7").show();
+  });
+  $(".img-fluid").mouseout(function () {
+    $("#Portfolio-img7").hide();
+  });
+  $(".img-fluid").mouseover(function () {
+    $("#Portfolio-img8").show();
+  });
+  $(".img-fluid").mouseout(function () {
+    $("#Portfolio-img8").hide();
+  });
 });
 
 //form function
@@ -86,6 +87,6 @@ function contact(form) {
     "Hello! " +
       name +
       "," +
-      " We have received your message. Thank you for reaching out to us. "
+      " Your message has been received. Thanks for your feedback. "
   );
 }
