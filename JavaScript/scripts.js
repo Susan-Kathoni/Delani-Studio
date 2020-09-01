@@ -79,10 +79,10 @@ $(document).ready(function () {
 });
 
 //form function
-function contact(form) {
-  var name = document.forms["contacts"]["name"].value;
-  var email = document.forms["contacts"]["email"].value;
-  var message = document.forms["contacts"]["message"].value;
+function feedback(form) {
+  var name = document.forms["feedback"]["name"].value;
+  var email = document.forms["feedback"]["email"].value;
+  var message = document.forms["feedback"]["message"].value;
   alert(
     "Hello! " +
       name +
