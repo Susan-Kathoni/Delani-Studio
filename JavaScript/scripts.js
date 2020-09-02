@@ -28,53 +28,53 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  $(".img-fluid").mouseover(function () {
-    $("#Portfolio-img1").show();
+  $(".card0").mouseover(function () {
+    $(".work0").show();
   });
-  $(".img-fluid").mouseout(function () {
-    $("#Portfolio-img1").hide();
+  $(".card0").mouseout(function () {
+    $(".work0").hide();
   });
-  $(".img-fluid2").mouseover(function () {
-    $(".#Portfolio-img2").show();
+  $(".card1").mouseover(function () {
+    $(".work1").show();
   });
-  $(".img-fluid2").mouseout(function () {
-    $("#Portfolio-img2").hide();
+  $(".card1").mouseout(function () {
+    $(".work1").hide();
   });
-  $(".img-fluid3").mouseover(function () {
-    $("#Portfolio-img3").show();
+  $(".card2").mouseover(function () {
+    $(".work2").show();
   });
-  $(".img-fluid3").mouseout(function () {
-    $("#Portfolio-img3").hide();
+  $(".card2").mouseout(function () {
+    $(".work2").hide();
   });
-  $(".img-fluid4").mouseover(function () {
-    $("#Portfolio-img4").show();
+  $(".card3").mouseover(function () {
+    $(".work3").show();
   });
-  $(".img-fluid4").mouseout(function () {
-    $(".#Portfolio-img4").hide();
+  $(".card3").mouseout(function () {
+    $(".work3").hide();
   });
-  $(".img-fluid5").mouseover(function () {
-    $("#Portfolio-img5").show();
+  $(".card4").mouseover(function () {
+    $(".work4").show();
   });
-  $(".img-fluid5").mouseout(function () {
-    $("#Portfolio-img5").hide();
+  $(".card4").mouseout(function () {
+    $(".work4").hide();
   });
-  $(".img-fluid6").mouseover(function () {
-    $("#Portfolio-img6").show();
+  $(".card5").mouseover(function () {
+    $(".work5").show();
   });
-  $(".img-fluid6").mouseout(function () {
-    $("#Portfolio-img6").hide();
+  $(".card5").mouseout(function () {
+    $(".work5").hide();
   });
-  $(".img-fluid7").mouseover(function () {
-    $("#Portfolio-img7").show();
+  $(".card6").mouseover(function () {
+    $(".work6").show();
   });
-  $(".img-fluid7").mouseout(function () {
-    $("#Portfolio-img7").hide();
+  $(".card6").mouseout(function () {
+    $(".work6").hide();
   });
-  $(".img-fluid8").mouseover(function () {
-    $("#Portfolio-img8").show();
+  $(".card7").mouseover(function () {
+    $(".work7").show();
   });
-  $(".img-fluid8").mouseout(function () {
-    $("#Portfolio-img8").hide();
+  $(".card7").mouseout(function () {
+    $(".work7").hide();
   });
 });
 
